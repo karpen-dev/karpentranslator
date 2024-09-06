@@ -16,7 +16,9 @@
    Arch ```sudo pacman -S pip``` or ```... pip3```   
 -  Instal requirements ```pip install -r requirements.txt``` or ```pip3 ...```    
 -  Open you browser   
--  Open run.sh ```./run.sh```   
+-  Run run.sh ```./run.sh```   
 ### MacOS, Linux, Windows
 -  Install python and pip
 -  Instal requirements ```pip install -r requirements.txt``` or ```pip3 ...```   
+-  Open /public/index.html in your browser    
+-  Run ```python server.py```
