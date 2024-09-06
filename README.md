@@ -41,4 +41,24 @@
 -  Установите python и pip
 -  Установите небходимые библиотеки ```pip install -r requirements.txt``` or ```pip3 ...```   
 -  Откройте /public/index.html in your browser    
--  Запустите ```python server.py```
+-  Запустите ```python server.py```   
+
+## Installation guide
+### Windows
+-  ブラウザを開きます
+-  run.exeを開く
+### Linux
+-  Python3をインストールする  
+   Debian and Ubuntu ```sudo apt install python3```    
+   Arch ```sudo pacman -S python3```      
+-  pipをインストールする   
+   Debian and Ubuntu ```sudo apt install pip``` or ```... pip3```    
+   Arch ```sudo pacman -S pip``` or ```... pip3```   
+-  インストール要件 ```pip install -r requirements.txt``` or ```pip3 ...```    
+-  ブラウザを開いてください   
+-  run.sh を実行します ```./run.sh```   
+### MacOS, Linux, Windows
+-  Pythonとpipをインストールする
+-  インストール要件 ```pip install -r requirements.txt``` or ```pip3 ...```   
+-  ブラウザで /public/index.html を開きます    
+-  走る ```python server.py```
