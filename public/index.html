@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KarpenTranslete</title>
+    <link rel="stylesheet" href="main.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <h1 style="text-align: center; margin-top: 40px;">Carp translator</h1>
+    <div class="textarea" style="text-align: center; font-size: 20px;">
+        <div class="select_lang">
+            <label for="output_lang">Select target language: </label><select style="font-size: 20px;" id="output_lang">
+                <option value="ru">Русский</option>
+                <option value="en">English</option>
+                <option value="ja">日本語</option>
+                <option value="kk">Қазақша</option>
+                <option value="be">Беларускі</option>
+                <option value="bg">Български</option>
+            </select>
+        </div>
+        <div class="areas">
+            <textarea id="text_to_transl" style="margin-top: 5px; font-size: 20px; height: 100px; width: 200px;" placeholder="Hello!"></textarea>
+            <div class="swap_buuton" style="margin-right: 48px; margin-top: 25px;">
+                <button id="swap_btn" onclick="swap()" style="background: #ffffff00; border: none;"><img src="assets/transfer.png" alt="transfer" height="40" width="40"></button>
+            </div>
+            <textarea id="output_text" style="margin-top: 5px; font-size: 20px; height: 100px; width: 200px;" placeholder="Привет!"></textarea>
+        </div>
+        <button onclick="transl()" style="text-align: center; font-size: 20px; margin-top: 20px;" class="btn">Translate</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="main_page.js"></script>
+</body>
+</html>
