@@ -43,7 +43,7 @@
 -  Откройте /public/index.html in your browser    
 -  Запустите ```python server.py```   
 
-## Installation guide
+## インストールガイド
 ### Windows
 -  ブラウザを開きます
 -  run.exeを開く
