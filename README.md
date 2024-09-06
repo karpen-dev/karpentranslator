@@ -15,6 +15,10 @@ After running server.py or server/server.exe, try accessing ```127.0.0.1:8000```
 ### Future versions
 In the future I plan to improve the design, I am already working on adding all the languages ​​and other functions. If you want to look at test versions of the program, just download this repository and watch the changes.
 
+### What's new v0.0.3 beta
+-  Fixed bugs in swapping
+-  Fixed server bugs
+
 ## Installation guide
 ### Windows
 -  Open your browser
