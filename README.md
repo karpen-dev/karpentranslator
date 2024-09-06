@@ -5,6 +5,7 @@
 
 ## About
 <img src="https://i.imgur.com/bHZ5K3A.png" />
+Translator with its own API
 
 ## Installation guide
 ### Windows
