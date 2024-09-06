@@ -3,6 +3,9 @@
 ![Static Badge](https://img.shields.io/badge/karpen-karpentranslator-karpentranslator)
 ![GitHub top language](https://img.shields.io/github/languages/top/karpen-dev/karpentranslator)
 
+## About
+<img src="https://i.imgur.com/bHZ5K3A.png" />
+
 ## Installation guide
 ### Windows
 -  Open your browser
