@@ -5,7 +5,9 @@
 
 ## About
 <img src="https://i.imgur.com/bHZ5K3A.png" />
-Translator with its own API
+
+### How to use the api
+After running server.py or server/server.exe, try accessing 127.0.0.1:8000 with a GET request q=text to translate and ol=destination language. There is no need to specify the source language; it is detected automatically.
 
 ## Installation guide
 ### Windows
