@@ -1,0 +1,1 @@
+public/index.html && python3 server.py

@@ -1,1 +1,1 @@
-python server.py
+public\index.html && python server.py 
