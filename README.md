@@ -15,6 +15,7 @@
    Debian and Ubuntu ```sudo apt install pip``` or ```... pip3```    
    Arch ```sudo pacman -S pip``` or ```... pip3```   
 -  Instal requirements ```pip install -r requirements.txt``` or ```pip3 ...```    
+-  Open you browser   
 -  Open run.sh ```./run.sh```   
 ### MacOS, Linux, Windows
 -  Install python and pip
