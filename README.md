@@ -7,7 +7,7 @@
 <img src="https://i.imgur.com/bHZ5K3A.png" />
 
 ### How to use the api
-After running server.py or server/server.exe, try accessing 127.0.0.1:8000 with a GET request q=text to translate and ol=destination language. There is no need to specify the source language; it is detected automatically.
+After running server.py or server/server.exe, try accessing 127.0.0.1:8000 with a GET request q=text to translate and ol=destination language. There is no need to specify the source language; it is detected automatically. As a result, we receive the request ```http://127.0.0.1:8000/?q=hello&ol=ja```.
 
 ## Installation guide
 ### Windows
