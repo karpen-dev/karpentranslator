@@ -17,7 +17,7 @@ In the future I plan to improve the design, I am already working on adding all t
 
 ### What's new v0.0.3 beta
 -  Fixed bugs in swapping
--  Fixed server bugs
+-  Temporarily removed the swap function for improvement
 
 ## Installation guide
 ### Windows
