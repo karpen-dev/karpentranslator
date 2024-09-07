@@ -32,6 +32,21 @@ function swaping() {
     }, 500);
 }
 
+function alt_swaping(){
+    const text_to_transl = document.getElementById('text_to_transl');
+    const output_text = document.getElementById('output_text');
+    
+    text_to_transl.classList.add('fade');
+    output_text.classList.add('fade');
+
+    setTimeout(() => {
+        text_to_transl.textContent = output_text.textContent;
+
+        text_to_transl.classList.remove('fade');
+        output_text.classList.remove('fade');
+    }, 500);
+}
+
 function swaping_back() {
 
     swaped = false;
