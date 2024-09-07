@@ -1,1 +1,1 @@
-public/index.html && python3 server.py
+python3 run.py

@@ -1,0 +1,15 @@
+{
+  "name": "karpentranslator",
+  "version": "0.0.3",
+  "description": "![Static Badge](https://img.shields.io/badge/karpen-karpentranslator-karpentranslator)\r ![GitHub top language](https://img.shields.io/github/languages/top/karpen-dev/karpentranslator)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "author": "karpen",
+  "license": "ISC",
+  "dependencies": {
+    "electron": "^32.0.2",
+    "karpentranslator": "file:"
+  }
+}
