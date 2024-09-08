@@ -2,7 +2,7 @@ import os
 from threading import Thread
 
 def start_server():
-    os.system('python server.py')
+    os.system('python server/server.py')
 
 def npm_start():
     os.system('npm start')

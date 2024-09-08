@@ -4,7 +4,7 @@
   "description": "![Static Badge](https://img.shields.io/badge/karpen-karpentranslator-karpentranslator)\r ![GitHub top language](https://img.shields.io/github/languages/top/karpen-dev/karpentranslator)",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron app/main.js"
   },
   "author": "karpen",
   "license": "ISC",
