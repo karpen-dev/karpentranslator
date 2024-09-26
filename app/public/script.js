@@ -35,6 +35,8 @@ async function transl() {
 
         output_text.textContent = `${res}`;
         output_text.style.color = "rgb(218, 218, 218)";
+
+        navigator.clipboard.writeText(res);
     }
 
     catch (error) {

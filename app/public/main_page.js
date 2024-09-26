@@ -32,6 +32,11 @@ function swaping() {
     }, 500);
 }
 
+function copy(){
+    var ot = document.getElementById("output_text").valaue;
+    document.body.appendChild(ot);
+}
+
 function alt_swaping(){
     const text_to_transl = document.getElementById('text_to_transl');
     const output_text = document.getElementById('output_text');

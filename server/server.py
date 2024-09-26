@@ -46,7 +46,7 @@ class MyHandler(SimpleHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(bytes(json.dumps(response), 'utf-8'))
 
-server_address = ("dev.karpen.online", 8000)
+server_address = ("127.0.0.1", 8000)
 httpd = HTTPServer(server_address, MyHandler)
 
 print("Starting server on port 8000...")
