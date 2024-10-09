@@ -10,15 +10,7 @@
 To get translated text, just install the translator according to the guide below, select a language, enter the text to be translated, click on the button and get the translated text.
 
 ### How to use the api
-After running server.py or server/server.exe, try accessing ```127.0.0.1:8000``` with a GET request ```q=``` text to translate and ```ol=``` destination language. There is no need to specify the source language; it is detected automatically. As a result, we receive the request ```http://127.0.0.1:8000/?q=hello&ol=ja```.
-
-### Future versions
-In the future I plan to improve the design, I am already working on adding all the languages ​​and other functions. If you want to look at test versions of the program, just download this repository and watch the changes.
-
-### What's new v0.0.3
--  Fixed bugs in swapping
--  Temporarily removed the swap function for improvement
--  Rewrote the program in electron
+After running server.py or server/server.exe, try accessing ```127.0.0.1:8000``` with a GET request ```q=``` text to translate and ```ol=``` destination language. There is no need to specify the source language; it is detected automatically. As a result, we receive the request ```http://127.0.0.1:8000/?q=hello&ol=ja```. We also have a ready-made API http://dev.karpen.online:8000/?q=hello&ol=ru, you can use it for free.
 
 ## Installation guide
 ### Windows
